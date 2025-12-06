@@ -19,4 +19,4 @@ jobs:
           go-version: "1.25.1"
 
       - name: test getAPIKey and code formatting
-        run: test -z $(go test ./... -cover)
+        run: test -z $(go test ./...)
